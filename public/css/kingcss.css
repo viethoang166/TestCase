@@ -1,0 +1,822 @@
+.Header a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+.Header {
+    height: 120px;
+    /* background: rgb(223, 243, 186); */
+}
+
+.header-logo img {
+    float: right;
+    width: 70%;
+    padding: 20px 0px 30px 4px;
+    margin-right: 20px;
+}
+
+.header-sreach {
+    padding-top: 35px;
+}
+
+.header-sreach button {
+    background: #1d2d47;
+    color: #fff;
+    width: 50px;
+}
+
+.header-sreach input {
+    height: 50px;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+.header-icon .icon-login i {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.header-icon .icon-compare i {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+/* menu */
+.menu {
+    height: 60px;
+    background: #1d2d47;
+}
+
+.header-menu {
+    border-radius: 5px;
+}
+
+.header-menu ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.header-menu>ul li {
+    list-style: none;
+}
+
+.header-menu>ul li a {
+    display: block;
+    padding: 5px 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+    margin-left: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.header-menu ul li:first-child {
+    border-left: none;
+}
+
+.header-menu>ul li:first-child a {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.header-menu ul li:hover>a {
+    opacity: .7;
+    color: #f1592a;
+}
+
+ul .sub-menu li a {
+    color: #000;
+    margin-left: 0px;
+}
+
+ul .sub-menu li:hover a {
+    color: #f1592a;
+}
+
+.header-menu li ul {
+    display: none;
+    min-width: 350px;
+    position: absolute;
+    z-index: 5;
+}
+
+.header-menu li>ul li {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    text-align: left;
+    color: #000;
+}
+
+.header-menu li>ul li:first-child a {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.header-menu li>ul li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-menu li>ul li:last-child a {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-menu li:hover>ul {
+    display: block;
+}
+
+/* end-menu */
+
+
+/* footer */
+.footer {
+    background: #1d2d47;
+    color: #fff;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-widget {
+    margin-top: 40px;
+}
+
+.footer-widget h6 {
+    font-size: 22px;
+}
+
+.Duhoc {
+    color: #fff;
+    list-style-type: none;
+}
+
+.study:hover {
+    color: #f1592a;
+}
+
+.school {
+    color: #fff;
+    list-style-type: none;
+}
+
+.school-item:hover {
+    color: #f1592a;
+}
+
+.Ielts-item:hover {
+    color: #f1592a;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-form input {
+    height: 50px;
+    width: 450px;
+}
+
+.footer-form button {
+    width: 150px;
+    background: #f1592a;
+}
+
+.footer-register {
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    float: right;
+    font-size: 22px;
+}
+
+.footer-copyright {
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* end footer */
+
+/* newspage */
+.banner-wrapper {
+    position: relative;
+}
+
+.banner-image img {
+    width: 100%;
+    display: flex;
+}
+
+.banner-overlay {
+    background: rgba(29, 45, 71, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.banner-text {
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 2;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newspage-left {
+    background: #1d2d47;
+    margin: 50px 0px 50px 70px;
+}
+
+
+.newspage-right {
+    background: #1d2d47;
+    margin: 50px 50px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.card-body .card-text {
+    display: block;
+    display: -webkit-box;
+    height: 16px*1.3*3;
+    font-size: 16px;
+    line-height: 1.3;
+    -webkit-line-clamp: 4;
+    /* số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+.blog-info h5 {
+    display: block;
+    display: -webkit-box;
+    height: 16px*1.3*3;
+    font-size: 16px;
+    line-height: 1.3;
+    -webkit-line-clamp: 2;
+    /* số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+.news-text {
+    height: 60px;
+    background-color: #1d2d47;
+    color: #fff;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin: 50px 50px 0px 0px;
+}
+
+/* newpage-text-left */
+.card {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 0px;
+    background: #edf0f0;
+    height: 450px;
+
+}
+
+.card-body .card-title {
+    display: block;
+    display: -webkit-box;
+    height: 53px;
+    font-size: 20px;
+    line-height: 1.3;
+    -webkit-line-clamp: 2;
+    /* số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+.card-body a {
+    color: #000;
+    text-decoration: none;
+}
+
+.card-body .card-text {
+    display: block;
+    display: -webkit-box;
+    max-height: 197px;
+    font-size: 16px;
+    line-height: 1.3;
+    -webkit-line-clamp: 4;
+    /* số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #777;
+}
+
+.news-icon .icon-fa {
+    margin-left: 20px;
+    color: #fd7e14;
+    font-size: 20px;
+}
+
+.news-icon {
+    margin-bottom: 10px;
+
+}
+
+.newspage-left .news-background {
+    background: #fff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+.newspage-right .news-background {
+    background: #fff;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+.newspage-right .media img {
+    width: 120px;
+    height: 90px;
+    padding-top: 15px;
+}
+
+.news-right {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.media-body h5 {
+    padding-top: 10px;
+    padding-left: 10px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.media-body:hover h5 {
+    color: #f1592a;
+}
+
+.media-body a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+.media .media-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newspage-right .media h4 {
+    font-size: 14px;
+    float: right;
+
+    margin-right: 20px;
+}
+
+
+
+.media-body {
+    padding-top: 5px;
+}
+
+.news-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-date p {
+    font-size: 18px;
+}
+
+.news-right-boder {
+    border-bottom: 1px solid #c4c4c4;
+
+}
+
+/* end newspage */
+
+/* news-page-detail */
+.banner-news .banner-image img {
+    width: 100%;
+    height: 600px;
+    padding: 0px 60px 0px 80px;
+}
+
+.news-detail-text h3 {
+    margin: 50px 50px 0px 60px;
+    font-size: 22px;
+}
+
+.news-detail {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+
+.news-detail-icon .icon-fa {
+    margin-left: 30px;
+    color: #fd7e14;
+    font-size: 23px;
+
+
+}
+
+.news-detail-icon .icon-faa {
+    color: #fd7e14;
+    font-size: 23px;
+}
+
+.news-detail {
+    padding-top: 10px;
+}
+
+.boder-solid {
+    border-bottom: 1px solid #c4c4c4;
+    width: 95%;
+    margin-left: 60px;
+}
+
+.text-news {
+    padding-left: 60px;
+}
+
+.text-news .text-1 {
+    text-align: justify;
+}
+
+.text-news .text-2 {
+    text-align: justify;
+}
+
+
+.text-news .img-text {
+    width: 50%;
+}
+
+.text-news .text-image {
+    width: 400px;
+}
+
+
+.text-news .text-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.newsdetail-left {
+    padding-bottom: 30px;
+}
+
+.news-category select {
+    width: 250px;
+    margin-top: 3px;
+    height: 35px;
+    border: 1px solid #fff;
+
+}
+
+.news-category button {
+    margin-top: 3px;
+    margin-left: 2px;
+    width: 50px;
+    background: #1d2d47;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.news-category:hover button {
+    background: #f1592a;
+}
+
+.news-category select {
+    border: 1px solid #fff;
+}
+
+
+
+/* end news-page-detail */
+/* css Du học */
+.entry-title {
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+
+.lead {
+    color: #ff0000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.image-study {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+
+
+/* end du hoc */
+
+.sidebar-menu>ul li {
+    list-style: none;
+}
+
+.sidebar-menu li ul {
+    display: none;
+    min-width: 350px;
+    /* position: absolute; */
+    z-index: 5;
+}
+
+.sidebar-menu li:hover>ul {
+    display: block;
+    background-color: #edf0f0;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.sub-menu-side {
+    padding-top: 10px;
+}
+
+.sub-menu-side i {
+    margin-left: 25px;
+}
+
+.sub-menu-side span {
+    margin-left: 1rem;
+}
+
+/* Feedback */
+.popover {
+    --form-width: calc(100vw / 3);
+    max-width: var(--form-width, 400px);
+    width: var(--form-width, 400px);
+}
+
+.popover-header {
+    padding: 0;
+}
+
+#feedback-header {
+    position: relative;
+    background: #f1592a;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feedback-form-item {
+    padding: 0 1rem;
+    flex: 0 0 50%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.feedback-form-item * {
+    font-size: 1.8rem;
+}
+
+.feedback-form-submit {
+    margin-top: 3.2rem;
+}
+
+.feedback-form-submit .Button {
+    max-width: 39rem;
+    width: 100%;
+}
+
+.ModalError-form-item {
+    padding: 0 1rem;
+    flex: 0 0 50%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.ModalError-form-item * {
+    font-size: 1.8rem;
+}
+
+.ModalError-form-submit {
+    margin-top: 3.2rem;
+}
+
+.ModalError-form-submit .Button {
+    max-width: 39rem;
+    width: 100%;
+}
+
+.ModalError .invalid-feedback {
+    font-size: 1.8rem;
+}
+
+
+/* Css Học bổng */
+.text-top {
+    text-align: center;
+    padding-bottom: 24px;
+    font-size: 40px;
+    color: #1d2d47;
+}
+
+.hr-text {
+    background: #1d2d47;
+    width: 60px;
+}
+
+.card-scho {
+    border: 1px solid #b3b3b3;
+    margin-top: 20px;
+    border-radius: 5%;
+    height: 240px;
+    position: relative;
+    background-color: #edf3f7;
+}
+
+.icon-scho {
+    position: absolute;
+    margin-left: 130px;
+    border: 1px solid #b3b3b3;
+    margin-top: -38px;
+    border-radius: 50%;
+    font-size: 45px;
+    width: 75px;
+    height: 72px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d2d47;
+}
+
+.card-body-scho .card-title {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.card-body-scho .card-text {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.scholarship {
+    background: #ebebef;
+
+    margin-top: 30px;
+
+}
+
+.scho-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scho-img .image-file {
+    width: 20%;
+    text-align: center;
+}
+
+.image-file p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.image-file h4 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.register-scho {
+    background-color: #edf3f7;
+    box-shadow: 10px 10px #ebebef;
+    border-radius: 2%;
+    height: 200px;
+    display: flex;
+}
+
+.register-scho .img-register {
+    width: 20%;
+}
+
+.img-register img {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.register-scho .text-register {
+    margin-top: 25px;
+    padding-left: 45px;
+}
+
+.register-scho .text-register h3 {
+    color: #1d2d47;
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+.register-scho .text-register li {
+    color: #1d2d47;
+    padding-bottom: 10px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.text-register-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.register-row {
+    padding-top: 25px;
+}
+
+.text-study {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.table-title {
+    text-align: center;
+    background-color: #1d2d47;
+    color: #fff;
+    height: 65px;
+    font-size: 22px;
+}
+
+.table-border {
+    border: 1px solid #1d2d47;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+
+.table-border tr td span {
+    font-size: 20px;
+}
+
+.title-wapper {
+    background: #ebebef;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-top2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: #1d2d47;
+    margin-bottom: 35px;
+}
+
+/* End css học bổng */

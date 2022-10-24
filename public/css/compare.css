@@ -1,0 +1,139 @@
+#compareschool{
+    padding-left: 70px;
+    padding-right: 50px;
+    font-size: larger;
+    text-align: left;
+    text-align:inherit;
+}
+
+.col-md-2{
+    font-weight: bolder ;
+}
+
+.col-md-10{
+/*...*/
+}
+#menu{
+    font-weight: bold;
+}
+
+.c-row-0{
+    border: 0.2px solid rgb(129, 129, 129);
+    padding-bottom: 50px;
+    margin-top: 40px;
+    height: 30vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.c-row-0:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform .5s ease-in-out;
+}
+.c-row-0 button{
+    background-color: rgba(255, 68, 0, 0.897);
+    color: white;
+    border: none;
+    font-size: larger;
+    font-size: 2rem;
+}
+
+#image_school{
+    width: 20vh;
+    height: 12vh;
+}
+.c-row-0 #name_school{
+    font-weight: bold;
+    text-align: center;
+}
+
+#pdf {
+    padding-top: 50px;
+}
+.c-row-1{
+    padding-bottom: 50px;
+    height: 17vh;
+    font-size: 2rem;
+}
+.c-row-2{
+    background-color: aliceblue;
+    padding-bottom: 50px;    
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row-3{
+    padding-bottom: 50px;
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row-4{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row-5{
+    padding-bottom: 50px;
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row-6{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row-7{
+    padding-bottom: 50px;
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row-8{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row-9{
+    padding-bottom: 50px;
+    height: 15vh;
+    font-size: 2rem;
+    border-left : 1px solid rgb(139, 139, 139);
+    border-right : 1px solid rgb(139, 139, 139);
+}
+.c-row{
+    padding-bottom: 50px;
+}
+.c-row button{
+    border: none;
+    color: white;
+    font-size: x-large;
+    width:25vh;
+    border-radius: 5px;
+}
+.c-row #tuvan{
+    margin-bottom: 10px;
+    background-color: rgba(255, 68, 0, 0.897);
+    font-weight:lighter;
+}
+.c-row #hoso{
+    margin-bottom: 10px;
+    background-color: rgb(19, 32, 73);
+    font-weight:lighter;
+}
