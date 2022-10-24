@@ -132,6 +132,11 @@
                                 <form method="POST" action="{{ route('admin.login') }}">
                                 <div class="form-body">
                                     @csrf
+                                    @if(Session::has('notactive'))
+                                        <div class="">
+                                            {{ Session::get('notactive') }}
+                                        </div>
+                                    @endif
                                     <div class="form-body-item">
                                         <input id="email" name="email" class="form-control ipt-control" placeholder="email"/>
                                         <label for="email" class="lbl-name @error('email') is-invalid @enderror">Email</label>

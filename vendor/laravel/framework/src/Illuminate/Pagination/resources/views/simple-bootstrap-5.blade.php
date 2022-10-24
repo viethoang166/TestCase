@@ -1,4 +1,5 @@
 @if ($paginator->hasPages())
+<div style="text-align:center">
     <nav role="navigation" aria-label="Pagination Navigation">
         <ul class="pagination">
             {{-- Previous Page Link --}}
@@ -26,4 +27,5 @@
             @endif
         </ul>
     </nav>
+</div>
 @endif

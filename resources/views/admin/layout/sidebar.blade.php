@@ -40,7 +40,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
 
-            <!--    <li class="menu-side"><a href="{{ route('dashboard') }}"><span><i class="fa fa-home" aria-hidden="true"></i>Dashboard</span></a></li>
+                <li class="menu-side"><a href="{{ route('dashboard') }}"><span><i class="fa fa-home" aria-hidden="true"></i>Dashboard</span></a></li>
 
                 <li class="menu-side"><a href="{{route('user.index')}}"><span><i class="fa fa-user" aria-hidden="true"></i> Nhân Viên</span></a></li>
 
@@ -71,14 +71,14 @@
                         </a></li>
                     </ul>
                 </li>
-                <li class="menu-side"><a href="{{ route('news.index') }}"> <span><i class="fa-regular fa-newspaper"></i> Tin tức & sự kiện</span></a></li> -->
+                <li class="menu-side"><a href="{{ route('news.index') }}"> <span><i class="fa-regular fa-newspaper"></i> Tin tức & sự kiện</span></a></li>
 
                 <li class="menu-side"><a href=""> <span><i class="fa fa-plane" aria-hidden="true"></i> Du học</span></a>
                     <ul class="sub-menu">
                         <li class="sub-menu-side"><a href="{{ route('schools.index') }}" class="d-flex justify-content-start" style="line-height: 1rem">
                             <i class="fa fa-university" aria-hidden="true"></i> <span> Trường Đại Học</span>
                         </a></li>
-                 <!--       <li class="sub-menu-side"><a href="{{ route('level.index') }}" class="d-flex justify-content-start" style="line-height: 1rem">
+                        <li class="sub-menu-side"><a href="{{ route('level.index') }}" class="d-flex justify-content-start" style="line-height: 1rem">
                             <i class="fa fa-university" aria-hidden="true"></i> <span> Bậc học</span>
                         </a></li>
                         <li class="sub-menu-side"><a href="{{ route('majors.index') }}" class="d-flex justify-content-start" style="line-height: 1rem">
@@ -86,23 +86,23 @@
                         </a></li>
                         <li class="sub-menu-side"><a href="{{ route('courses.index') }}" class="d-flex justify-content-start" style="line-height: 1rem">
                             <i class="fa fa-book" aria-hidden="true"></i> <span>Khoá học</span>
-                        </a></li> -->
+                        </a></li>
                     </ul>
                 </li>
 
-                <!-- <li class="menu-side"><a href="{{route('scholarships.index')}}"><span><i class="fa fa-graduation-cap" aria-hidden="true"></i> Học bổng</span> </a></li>-->
+                <li class="menu-side"><a href="{{route('scholarships.index')}}"><span><i class="fa fa-graduation-cap" aria-hidden="true"></i> Học bổng</span> </a></li>
 
-                <!--<li class="menu-side"><a href="{{route('contact.show', 1)}}"><span> <i class="fa fa-phone" aria-hidden="true"></i> Liên hệ</span></a></li>-->
+                <li class="menu-side"><a href="{{route('contact.show', 1)}}"><span> <i class="fa fa-phone" aria-hidden="true"></i> Liên hệ</span></a></li>
 
-                <!-- <li class="menu-side"><a href="{{route('contact-info.index')}}"><span> <i class="fa fa-phone" aria-hidden="true"></i>Tư vấn</span></a></li>-->
+                <li class="menu-side"><a href="{{route('contact-info.index')}}"><span> <i class="fa fa-phone" aria-hidden="true"></i>Tư vấn</span></a></li>
 
                 <li class="menu-side"><a href="{{ route('country.index') }}"><span> <i class="fa fa-solid fa-globe" aria-hidden="true"></i> Quốc Gia</span></a></li>
 
                 <li class="menu-side"><a href="{{ route('cities.index') }}"><span><i class="fa fa-building" aria-hidden="true"></i> Thành Phố</span></a></li>
 
-                <!-- <li class="menu-side"><a href="{{ route('feedback.index') }}"><span><i class="fa fa-newspaper" aria-hidden="true"></i> Feedback</span></a></li> -->
+                <li class="menu-side"><a href="{{ route('feedback.index') }}"><span><i class="fa fa-newspaper" aria-hidden="true"></i> Feedback</span></a></li>
 
-                <!-- <li class="menu-side"><a href="{{ route('service.index') }}"><span><i class="fa fa-globe" aria-hidden="true"></i> Dịch vụ</span></a></li> -->
+                <li class="menu-side"><a href="{{ route('service.index') }}"><span><i class="fa fa-globe" aria-hidden="true"></i> Dịch vụ</span></a></li>
 
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                     @csrf

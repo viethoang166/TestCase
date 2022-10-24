@@ -30,7 +30,6 @@ class Customer extends Authenticatable
         'age',
         'sex',
         'avata',
-        'active',
     ];
 
     /**
@@ -55,10 +54,5 @@ class Customer extends Authenticatable
     public function feedback()
     {
         return $this->hasMany(Feedback::class);
-    }
-
-    public function isActive()
-    {
-        return $this->active == 1;
     }
 }

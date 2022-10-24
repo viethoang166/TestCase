@@ -33,13 +33,8 @@ class LoginController extends Controller
             'password' => 'required',
         ]);
 
-        if (!Auth::guard('web')->attempt($credentials)) {
+        if (!Auth::attempt($credentials)) {
             return redirect()->back()->withInput($credentials)->with('message', __('Invalid information'));
-        }
-        if (!Auth::guard('web')->user()->isActive()) {
-            Auth::guard('web')->logout();
-
-            return redirect()->back()->withErrors(['active' => 'Account is not active.']);
         }
         $request->session()->regenerate();
 

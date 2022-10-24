@@ -63,8 +63,9 @@
 
     <div class="container-fluid">
         <label for="description" class="form-label">Description</label>
-        <textarea name="description" style="height:200px;" type="text"
-            class="form-control mb-2 @error('description') is-invalid @enderror" id="description" @isset ($isShow) readonly @endisset>{{ old('description', $introductionReward->description ?? '') }}</textarea>
+        <input name="description" type="text" class="form-control mb-2 @error('description') is-invalid @enderror"
+            id="description" placeholder="" value="{{ old('description', $introductionReward->description ?? '') }}"
+            @isset ($isShow) readonly @endisset>
         @error('description')
             <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>

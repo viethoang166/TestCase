@@ -1,11 +1,12 @@
 @extends('admin.layout.master')
 
 @section('content')
-
-    @if ($errors->has('banner'))
-        <div class="alert alert-danger" role="alert">
-            <p class="help is-danger">{{ $errors->first('banner') }}</p>
-        </div>
+    @if ($errors->any())
+        @foreach ($errors->all() as $error)
+            <div class="alert alert-danger" role="alert">
+                {{ $error }}
+            </div>
+        @endforeach
     @endif
     @if (empty($schools))
         <form class="container-fluid" method="post" action="{{ route('schools.store') }}" enctype="multipart/form-data">

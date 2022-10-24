@@ -1,7 +1,7 @@
 <div>
     @if ($paginator->hasPages())
         @php(isset($this->numberOfPaginatorsRendered[$paginator->getPageName()]) ? $this->numberOfPaginatorsRendered[$paginator->getPageName()]++ : $this->numberOfPaginatorsRendered[$paginator->getPageName()] = 1)
-        
+        <div style="text-align:center">      
         <nav>
             <ul class="pagination">
                 {{-- Previous Page Link --}}
@@ -46,5 +46,6 @@
                 @endif
             </ul>
         </nav>
+        </div>
     @endif
 </div>

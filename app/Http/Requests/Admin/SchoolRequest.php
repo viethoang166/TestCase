@@ -24,7 +24,6 @@ class SchoolRequest extends FormRequest
      */
     public function rules()
     {
-        dd($this->all());
         return [
             'name' => ['required', 'string', 'max:255', Rule::unique('schools')->ignore($this->school)],
             'email' => [
